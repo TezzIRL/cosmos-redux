@@ -1,4 +1,4 @@
-#include "cosmos.dtsi"
+#include "dac360.dtsi"
 
 &kscan0 {
     col-gpios

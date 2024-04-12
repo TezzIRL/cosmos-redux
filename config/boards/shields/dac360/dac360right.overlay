@@ -1,4 +1,4 @@
-#include "cosmos.dtsi"
+#include "dac360.dtsi"
 
 &default_transform {
     col-offset = <6>;
