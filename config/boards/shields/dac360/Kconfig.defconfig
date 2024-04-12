@@ -1,7 +1,7 @@
 if SHIELD_DAC360LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Dac360"
+    default "Cosmos"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
