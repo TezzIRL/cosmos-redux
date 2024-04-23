@@ -50,7 +50,7 @@
 &kp SLASH  &kp LEFT_BRACE  &kp GRAVE             &kp SQT                &kp RIGHT_BRACE   &kp AT_SIGN                                                  &kp LESS_THAN     &kp KP_N4        &kp KP_N5        &kp KP_N6         &kp KP_MULTIPLY  &kp CARET
 &kp POUND  &kp CARET       &kp DQT               &kp UNDER              &kp DOLLAR        &kp PERCENT                                                  &kp GREATER_THAN  &kp KP_N1        &kp KP_NUMBER_2  &kp KP_N3         &kp KP_MINUS     &kp LEFT_PARENTHESIS
 &kp EXCL   &kp LESS_THAN   &kp MINUS             &kp EQUAL              &kp GREATER_THAN  &kp PLUS                                                     &kp EQUAL         &kp KP_N0        &kp KP_DOT       &kp LS(KP_ENTER)  &kp KP_PLUS      &kp RIGHT_PARENTHESIS
-                           &kp AMPERSAND         &kp PIPE                                 &kp BSLH      &kp COLON     &kp SEMICOLON    &trans  &trans  &tog 0                             &trans           &trans
+                           &kp AMPERSAND         &kp PIPE                                 &kp BSLH      &kp COLON     &kp SEMICOLON    &trans  &trans  &tog 2                             &trans           &trans
                                                                                                         &kp ASTERISK  &kp PERIOD       &trans  &trans
             >;
         };
