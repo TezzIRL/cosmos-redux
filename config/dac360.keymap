@@ -99,11 +99,11 @@
 
         short_nav {
             bindings = <
-&kp LG(LS(S))  &kp LG(LC(V))  &none      &none      &kp LC(LS(ESCAPE))  &kp LA(F4)                                                      &kp INSERT   &kp LC(HOME)  &kp HOME  &kp PG_UP      &kp LC(PG_UP)  &none
-&none          &none          &kp LC(V)  &kp LC(X)  &kp LC(C)           &none                                                           &none        &kp LC(END)   &kp END   &kp PG_DN      &kp LC(PG_DN)  &kp LG(LC(D))
-&caps_word     &kp LCTRL      &kp LGUI   &kp LALT   &kp LSHIFT          &none                                                           &kp TAB      &kp LC(LEFT)  &kp UP    &kp LC(RIGHT)  &kp LG(PG_UP)  &kp LG(LC(LEFT))
-&none          &none          &none      &none      &kp LC(F)           &none                                                           &none        &kp LEFT      &kp DOWN  &kp RIGHT      &kp LG(PG_DN)  &kp LG(LC(RIGHT))
-                              &kp LC(Z)  &kp LC(Y)                      &trans      &trans  &trans    &kp LC(BACKSPACE)  &kp LC(ENTER)  &kp LC(DEL)                &none     &none
+&kp LG(LS(S))  &kp LG(LC(V))  &none      &none      &kp LC(LS(ESCAPE))  &kp LA(F4)                                                      &kp INSERT   &kp LC(HOME)  &kp HOME                &kp PG_UP          &kp LC(PG_UP)  &kp LG(PG_UP)
+&none          &none          &kp LC(V)  &kp LC(X)  &kp LC(C)           &none                                                           &none        &kp LC(END)   &kp END                 &kp PG_DN          &kp LC(PG_DN)  &kp LG(PAGE_DOWN)
+&caps_word     &kp LCTRL      &kp LGUI   &kp LALT   &kp LSHIFT          &none                                                           &kp TAB      &kp LEFT      &kp UP                  &kp DOWN_ARROW     &kp RIGHT      &kp LG(LC(LEFT))
+&none          &none          &none      &none      &kp LC(F)           &none                                                           &none        &kp LC(LEFT)  &kp LC(DOWN)            &kp LC(DOWN)       &kp LC(RIGHT)  &kp LG(LC(RIGHT))
+                              &kp LC(Z)  &kp LC(Y)                      &trans      &trans  &trans    &kp LC(BACKSPACE)  &kp LC(ENTER)  &kp LC(DEL)                &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT))
                                                                                     &trans  &trans    &none              &none
             >;
         };
