@@ -40,7 +40,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             flavor = "tap-unless-interrupted";
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 42 43 44 45 46 47 53 54 55 56 57 60 61>;
@@ -53,7 +53,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             flavor = "tap-unless-interrupted";
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 48 49 50 51 52 58 59>;
@@ -66,12 +66,12 @@
 
         default {
             bindings = <
-&kp GRAVE     &kp N1                  &kp N2              &kp N3              &kp N4                &kp N5                                                                 &kp N6  &kp N7            &kp N8               &kp N9               &kp N0                   &kp MINUS
-&kp TAB       &kp Q                   &kp W               &kp E               &kp R                 &kp T                                                                  &kp Y   &kp U             &kp I                &kp O                &kp P                    &kp EQUAL
-&kp CAPSLOCK  &lh_pht LEFT_CONTROL A  &lh_pht LEFT_GUI S  &lh_pht LEFT_ALT D  &lh_pht LEFT_SHIFT F  &kp G                                                                  &kp H   &rh_pht RSHIFT J  &rh_pht RIGHT_ALT K  &rh_pht RIGHT_GUI L  &rh_pht RCTRL SEMICOLON  &kp SQT
-&td_shift     &kp Z                   &kp X               &kp C               &kp V                 &kp B                                                                  &kp N   &kp M             &kp COMMA            &kp DOT              &kp FSLH                 &td_shift
-                                      &kp UP_ARROW        &kp DOWN_ARROW                            &kp ESCAPE  &kp SPACE    &kp ENTER        &kp ENTER   &kp SPACE        &td_l2                    &kp LEFT_ARROW       &kp RIGHT_ARROW
-                                                                                                                &lt 3 PG_UP  &kp BACKSPACE    &kp DELETE  &lt 1 PAGE_DOWN
+&kp GRAVE   &kp N1                  &kp N2              &kp N3              &kp N4                &kp N5                                                                    &kp N6  &kp N7            &kp N8               &kp N9               &kp N0                   &kp MINUS
+&kp TAB     &kp Q                   &kp W               &kp E               &kp R                 &kp T                                                                     &kp Y   &kp U             &kp I                &kp O                &kp P                    &kp EQUAL
+&kp ESCAPE  &lh_pht LEFT_CONTROL A  &lh_pht LEFT_GUI S  &lh_pht LEFT_ALT D  &lh_pht LEFT_SHIFT F  &kp G                                                                     &kp H   &rh_pht RSHIFT J  &rh_pht RIGHT_ALT K  &rh_pht RIGHT_GUI L  &rh_pht RCTRL SEMICOLON  &kp SQT
+&td_shift   &kp Z                   &kp X               &kp C               &kp V                 &kp B                                                                     &kp N   &kp M             &kp COMMA            &kp DOT              &kp FSLH                 &td_shift
+                                    &kp UP_ARROW        &kp DOWN_ARROW                            &kp BACKSLASH  &kp SPACE    &kp ENTER        &kp ENTER   &kp SPACE        &td_l2                    &kp LEFT_ARROW       &kp RIGHT_ARROW
+                                                                                                                 &lt 3 PG_UP  &kp BACKSPACE    &kp DELETE  &lt 1 PAGE_DOWN
             >;
         };
 
